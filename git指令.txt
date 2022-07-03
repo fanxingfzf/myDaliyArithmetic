@@ -1,0 +1,16 @@
+git init
+git status
+git add .
+git commit -m"注释"
+git remote add origin 远程仓库地址
+git remote
+git push origin master
+
+不安全路径解决：
+git config --global --add safe.directory "*";
+
+查看远端仓库连接
+$ git remote -v
+
+克隆远端项目
+git clone 远端地址
